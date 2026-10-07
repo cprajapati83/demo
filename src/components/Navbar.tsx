@@ -93,6 +93,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
             {/* PWA Add to Home Button */}
             <PWAInstallButton variant="nav" />
 
+            {/* WhatsApp Medicine Order CTA */}
+            <button
+              onClick={onOpenWhatsAppModal}
+              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold shadow-sm transition active:scale-95"
+            >
+              <MessageCircle className="w-4 h-4 fill-white" />
+              <span>WhatsApp Order</span>
+            </button>
+
             {/* Dark Mode Toggle */}
             <button
               onClick={toggleTheme}
@@ -112,15 +121,6 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
                   <span className="hidden xl:inline"></span>
                 </>
               )}
-            </button>
-
-            {/* WhatsApp Medicine Order CTA */}
-            <button
-              onClick={onOpenWhatsAppModal}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-semibold shadow-sm transition active:scale-95"
-            >
-              <MessageCircle className="w-4 h-4 fill-white" />
-              <span>WhatsApp Order</span>
             </button>
           </div>
 
