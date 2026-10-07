@@ -254,9 +254,7 @@ export const Footer: React.FC = () => {
 
           {/* REQUIRED FOOTER POPUP TRIGGER — PRESERVE EXACTLY: */}
           <div className="my-1 sm:my-0">
-            <a href="#" className="wmit-popup-trigger text-slate-400 hover:text-emerald-400 transition font-medium underline underline-offset-4">
-              Developed by WMIT
-            </a>
+            <a href="#" class="wmit-popup-trigger">Developed by WMIT</a>
           </div>
 
           <p className="text-slate-500">Nalanda, Bihar 803111</p>
