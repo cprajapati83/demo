@@ -104,12 +104,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenWhatsAppModal }) => {
               {theme === 'dark' ? (
                 <>
                   <Sun className="w-4 h-4 text-amber-400 animate-spin-slow" />
-                  <span className="hidden xl:inline">Light</span>
+                  <span className="hidden xl:inline"></span>
                 </>
               ) : (
                 <>
                   <Moon className="w-4 h-4 text-indigo-600" />
-                  <span className="hidden xl:inline">Dark</span>
+                  <span className="hidden xl:inline"></span>
                 </>
               )}
             </button>
