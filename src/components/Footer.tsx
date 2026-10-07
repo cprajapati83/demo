@@ -260,9 +260,51 @@ export const Footer: React.FC = () => {
           <p className="text-slate-500">Nalanda, Bihar 803111</p>
         </div>
       </div>
+
+      {/* WMIT Interactive Information Popup Modal */}
+      {wmitModalOpen && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/70 backdrop-blur-xs p-4 animate-in fade-in"
+        >
+          <div className="w-full max-w-md rounded-2xl bg-white dark:bg-slate-900 text-slate-900 dark:text-white p-6 shadow-2xl border border-slate-200 dark:border-slate-800 relative">
+            <button
+              onClick={() => setWmitModalOpen(false)}
+              className="absolute top-4 right-4 p-1.5 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800"
+              aria-label="Close WMIT modal"
+            >
+              <X className="w-5 h-5" />
+            </button>
+
+            <div className="flex items-center gap-3 mb-4">
+              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-600 to-emerald-600 flex items-center justify-center text-white font-bold text-xl shadow-md">
+                W
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-slate-900 dark:text-white">
+                  WebMaker IT Solutions (WMIT)
+                </h3>
+                <p className="text-xs text-emerald-600 dark:text-emerald-400 font-medium">
+                  Verified Digital Engineering Partner
+                </p>
+              </div>
+            </div>
+
+            <div className="space-y-3 text-xs sm:text-sm text-slate-600 dark:text-slate-300">
+              <p>
+                This healthcare portal for <strong>{BUSINESS_CONFIG.businessName}</strong> was crafted with high-performance React architecture, PWA offline support, instant WhatsApp integration, and real-time medicine inventory stock checking.
+              </p>
+              <div className="p-3 rounded-xl bg-slate-50 dark:bg-slate-800 border border-slate-100 dark:border-slate-700/60 text-xs space-y-1">
+                <div><span className="font-semibold">Technology:</span> React, Vite, Tailwind CSS, Service Workers PWA</div>
+                <div><span className="font-semibold">Tracking System:</span> Integrated with WMIT CRM Analytics</div>
+                <div><span className="font-semibold">Support Contact:</span> webmakerit.com</div>
+              </div>
+            </div>
+
             <div className="mt-5 flex gap-2">
               <a
-                href="https://crm.webmakerit.com"
+                href="https://webmakerit.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex-1 text-center py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-semibold transition shadow-sm"
