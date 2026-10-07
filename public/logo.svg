@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 320" width="850" height="320">
+  <!-- Clean transparent/white background -->
+  <defs>
+    <!-- Deep crimson / burgundy gradient -->
+    <linearGradient id="crimsonPetal" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#7a142c" />
+      <stop offset="35%" stop-color="#931635" />
+      <stop offset="70%" stop-color="#aa183c" />
+      <stop offset="100%" stop-color="#bf1b42" />
+    </linearGradient>
+
+    <!-- Warm vibrant orange gradient -->
+    <linearGradient id="orangePetal" x1="0%" y1="10%" x2="100%" y2="90%">
+      <stop offset="0%" stop-color="#aa183c" />
+      <stop offset="25%" stop-color="#c83f12" />
+      <stop offset="60%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+
+    <!-- Subtle shading -->
+    <filter id="softGlow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <g transform="translate(40, 25)">
+    <!-- THE PIN / LEAF EMBLEM -->
+    <g transform="translate(20, 10)">
+      <!-- Outer Orange Wing/Swoosh -->
+      <path
+        d="M125 18 C185 18, 235 68, 235 130 C235 182, 194 225, 142 238 C108 246, 68 238, 42 225 C34 220, 36 211, 44 209 C54 207, 65 211, 78 217 C108 230, 150 226, 178 202 C208 175, 215 132, 201 94 C185 54, 144 38, 105 40 C82 41, 62 50, 52 61 C71 34, 96 18, 125 18 Z"
+        fill="url(#orangePetal)"
+      />
+
+      <!-- Main Crimson Pin Body -->
+      <path
+        d="M118 26 C170 26, 206 64, 206 114 C206 160, 168 198, 122 208 C80 217, 42 198, 28 170 C14 142, 20 98, 42 66 C60 40, 88 26, 118 26 Z"
+        fill="url(#crimsonPetal)"
+      />
+
+      <!-- Crisp White Ring Aperture -->
+      <circle cx="118" cy="116" r="60" fill="#ffffff" />
+
+      <!-- Center Solid Crimson Core -->
+      <circle cx="118" cy="116" r="35" fill="url(#crimsonPetal)" />
+
+      <!-- Bottom Pin Pointer Accent -->
+      <path
+        d="M45 165 C36 185, 27 210, 32 224 C38 230, 60 223, 78 208 C68 204, 54 189, 45 165 Z"
+        fill="#ea580c"
+      />
+    </g>
+
+    <!-- TYPOGRAPHY: "COMPANY" & "Your Logo Here" -->
+    <g transform="translate(305, 30)">
+      <!-- COMPANY Text (Bold, heavy dark charcoal) -->
+      <text
+        x="0"
+        y="105"
+        font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="900"
+        font-size="108"
+        letter-spacing="-1.5"
+        fill="#262b30"
+      >COMPANY</text>
+
+      <!-- Your Logo Here Text (Light, elegant thin subtitle) -->
+      <text
+        x="6"
+        y="175"
+        font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+        font-weight="300"
+        font-size="56"
+        letter-spacing="2"
+        fill="#475569"
+      >Your Logo Here</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="favCrimson" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="50%" stop-color="#9f1239" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+    <linearGradient id="favOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9f1239" />
+      <stop offset="45%" stop-color="#c2410c" />
+      <stop offset="85%" stop-color="#ea580c" />
+      <stop offset="100%" stop-color="#f97316" />
+    </linearGradient>
+  </defs>
+
+  <rect width="100" height="100" rx="24" fill="#0f172a" />
+
+  <!-- Outer Orange Arc -->
+  <path
+    d="M50 14 C74 14, 91 31, 91 55 C91 73, 76 87, 57 91 C45 93.5, 29 91, 19 84 C15 81, 16 77, 20 76 C24 75, 28 77, 32 79 C44 84, 59 83, 69 74 C80 64, 83 50, 78 37 C72 23, 58 17, 43 18 C34 18, 28 22, 24 26 C31 16, 40 14, 50 14 Z"
+    fill="url(#favOrange)"
+  />
+
+  <!-- Main Crimson Pin -->
+  <path
+    d="M48 18 C67 18, 81 32, 81 50 C81 65, 68 78, 51 81 C36 84, 22 77, 17 67 C11 57, 13 42, 21 31 C28 21, 38 18, 48 18 Z"
+    fill="url(#favCrimson)"
+  />
+
+  <!-- White ring -->
+  <circle cx="48" cy="50" r="21" fill="#ffffff" />
+  <!-- Center Crimson Core -->
+  <circle cx="48" cy="50" r="12" fill="url(#favCrimson)" />
+
+  <!-- Pointer Accent -->
+  <path
+    d="M23 67 C20 73, 17 81, 18 85 C20 87, 29 85, 36 80 C31 79, 27 74, 23 67 Z"
+    fill="#ea580c"
+  />
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="gm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <!-- Full bleed for maskable -->
+  <rect width="512" height="512" fill="url(#gm)" />
+  <!-- Safe zone icon inside 80% circle -->
+  <g transform="translate(51, 51) scale(0.8)">
+    <path d="M208 100 H304 V208 H412 V304 H304 V412 H208 V304 H100 V208 H208 Z" fill="#ffffff" />
+    <path d="M140 256 L195 256 L225 190 L268 318 L298 256 L372 256" stroke="#0A8F6A" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "Your Medical Hall - Pharmacy & Healthcare",
+  "description": "White label healthcare website and medicine stock checker for Your Medical Hall pharmacy in Bihar Sharif, Nalanda.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

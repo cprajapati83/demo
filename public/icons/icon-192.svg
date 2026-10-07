@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="g192" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0A8F6A" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#g192)" />
+  <!-- Medical Cross -->
+  <path d="M78 40 H114 V78 H152 V114 H114 V152 H78 V114 H40 V78 H78 Z" fill="#ffffff" />
+  <!-- Center Heartbeat / Caduceus line motif -->
+  <path d="M56 96 L76 96 L86 76 L102 116 L112 96 L136 96" stroke="#0A8F6A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+</svg>
